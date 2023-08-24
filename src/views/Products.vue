@@ -1,5 +1,6 @@
 <template>
   <div class="products">
+    <h2 class="section-title">Discover Our Collection</h2>
     <div v-if="isLoading" class="loadingio-spinner-bean-eater-pgmqlvey3sh">
       <div class="ldio-ugtlj07j4f">
         <div>
@@ -14,7 +15,6 @@
         </div>
       </div>
     </div>
-    <h2 class="section-title">Discover Our Collection</h2>
     <div class="product-list">
       <div class="product-card" v-for="product in Products" :key="product.prodID">
         <div class="product-image">
